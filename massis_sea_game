@@ -1,3 +1,4 @@
+вариант 1:
 const int N = 10;
 int map [N][N] = {0};
 char comp_map [N][N] = {0};
@@ -14,4 +15,16 @@ for (int i = 0; i < 4; i++)
             comp_map[x][y] = 98;
         }
         cout << comp_map[x][y];
-
+        
+        
+ 
+Вариант 2:
+ 
+ //класстер 
+        
+  class sea_game
+  {
+    private:
+    int _x, _y;         
+    CellState _state;  
+   }
