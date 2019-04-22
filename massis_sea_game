@@ -1,0 +1,17 @@
+const int N = 10;
+int map [N][N] = {0};
+char comp_map [N][N] = {0};
+int x;
+int y;
+
+
+
+//заполнение  массива
+for (int i = 0; i < 4; i++)
+        {
+            x = rand() % N;
+            y = rand() % N;
+            comp_map[x][y] = 98;
+        }
+        cout << comp_map[x][y];
+
